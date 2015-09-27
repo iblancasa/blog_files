@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Site Title
-locale:           en_US
-url:
+title:            iblancasa
+locale:           es_ES
+url:		  http://iblancasa.com/blog
 
 
 # Jekyll configuration
@@ -26,12 +26,12 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Israel Blancas
   avatar: bio-photo.jpg
-  bio: "Describe your self."
+  bio: ""
   email:
   disqus-shortname:
-  twitter: #username
+  twitter: iblancasa
   facebook: #username
   google:
     plus: #username
@@ -40,18 +40,18 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: iblancasa
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  linkedin: iblancasa
   xing: #username
-  instagram: #username
+  instagram: iblancasa93
   lastfm: #username
   tumblr: #username
   pinterest: #username
   foursquare: #username
   steam: #username
   dribbble: #username
-  youtube: #username
+  youtube: iblancasa
   soundcloud: #username
   weibo: #username
   flickr: #username
