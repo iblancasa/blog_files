@@ -1,6 +1,6 @@
 # TO DO
 
-[ ] Translate to Spanish
+[x] Translate to Spanish
 [ ] Add continuous integration
 [ ] Add test?
 [ ] Change domain

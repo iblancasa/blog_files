@@ -23,13 +23,13 @@
     {% endif %}
   alt="{{ page.title }} feature image">
   {% if page.image.credit %}
-    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+    <span class="image-credit">Foto por: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
   {% endif %}
   </div><!-- /.image-wrap -->
 {% endif %}
 
 <div id="search-container">
-<input type="text" id="search-input" placeholder="search...">
+<input type="text" id="search-input" placeholder="Buscar...">
 <ul id="results-container"></ul>
 </div>
 
@@ -38,7 +38,7 @@
     {% include _author-bio.html %}
   </div>
   <div id="index">
-    <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
+    <h3><a href="{{ site.url}}/posts/">&Uacute;ltimos post</a></h3>
     {% for post in site.posts limit:5 %}
     <article>
       {% if post.link %}
