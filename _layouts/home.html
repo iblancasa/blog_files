@@ -28,6 +28,11 @@
   </div><!-- /.image-wrap -->
 {% endif %}
 
+<div id="search-container">
+<input type="text" id="search-input" placeholder="search...">
+<ul id="results-container"></ul>
+</div>
+
 <div id="main" role="main">
   <div class="article-author-side">
     {% include _author-bio.html %}
@@ -54,6 +59,14 @@
 </div><!-- /.footer-wrap -->
 
 {% include _scripts.html %}
+
+<script type="text/javascript">
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/search.json',
+})
+</script>
 
 </body>
 </html>

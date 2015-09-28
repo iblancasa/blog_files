@@ -26,3 +26,11 @@ sitemap: false
 @import "vendor/font-awesome/font-awesome";
 @import "vendor/magnific-popup/magnific-popup";
 //@import "vendor/google/fonts";
+
+#search-input {
+  display: inline-block;
+  padding: .5em;
+  width:100%;
+  font-size: 0.8em;
+  box-size: border-box;
+}
