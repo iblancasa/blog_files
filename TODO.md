@@ -10,5 +10,5 @@
 [ ] Improve readme
 [x] Add tags?
 [x] Change author page
-[ ] Search a gallery system
+[x] Search a gallery system
 [ ] Compress HTML
