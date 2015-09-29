@@ -28,9 +28,25 @@ sitemap: false
 //@import "vendor/google/fonts";
 
 #search-input {
-  display: inline-block;
+  display: block;
   padding: .5em;
-  width:100%;
+  width:50%;
+  margin: 0 auto;
   font-size: 0.8em;
   box-size: border-box;
+}
+
+#results-container {
+  width:50%;
+  margin: 0 auto;
+  display: block;
+  margin-top:10px;
+}
+
+#results-container a{
+  color: #888888;
+}
+
+#results-container a:hover{
+  color: #000000;
 }

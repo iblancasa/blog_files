@@ -4,7 +4,7 @@
 [ ] Add continuous integration
 [ ] Add test?
 [ ] Change domain
-[ ] Improve search interface
+[x] Improve search interface
 [ ] Remove sample post
 [ ] Remove sanple pages
 [ ] Improve readme
