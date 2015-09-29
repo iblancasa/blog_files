@@ -9,5 +9,5 @@
 [ ] Remove sanple pages
 [ ] Improve readme
 [ ] Add tags?
-[ ] Change author page
+[x] Change author page
 [ ] Search a gallery system
