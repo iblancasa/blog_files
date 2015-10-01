@@ -6,7 +6,7 @@
 [ ] Change domain
 [x] Improve search interface
 [ ] Remove sample post
-[ ] Remove sanple pages
+[x] Remove sanple pages
 [ ] Improve readme
 [x] Add tags?
 [x] Change author page
