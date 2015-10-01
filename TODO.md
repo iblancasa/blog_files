@@ -11,4 +11,4 @@
 [x] Add tags?
 [x] Change author page
 [x] Search a gallery system
-[ ] Compress HTML
+[x] Compress HTML

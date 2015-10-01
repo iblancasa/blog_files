@@ -59,6 +59,30 @@ module.exports = function(grunt) {
       dist: [
         'assets/js/scripts.min.js'
       ]
+    },
+
+
+    htmlmin: {
+       dist: {
+         options: {
+           removeComments: true,
+           collapseWhitespace: true,
+           removeScriptTypeAttributes: true,
+           removeIgnored: true,
+           minifyJS: true,
+           minifyCSS: true,
+           removeCDATASectionsFromCDATA: true,
+           preserveLineBreaks: false,
+           removeRedundantAttributes: true,
+           useShortDoctype: true
+         },
+         files: [{
+                expand: true,
+                cwd: '_site/',
+                src: '**/*.html',
+                dest: '_site/'
+            }]
+       }
     }
   });
 
@@ -69,6 +93,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-svgmin');
+
+  grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
   // Register tasks
   grunt.registerTask('default', [
@@ -85,4 +111,7 @@ module.exports = function(grunt) {
     'svgmin'
   ]);
 
+  grunt.registerTask('compress', [
+    'htmlmin'
+  ]);
 };
