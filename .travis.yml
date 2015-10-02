@@ -1,0 +1,25 @@
+language: ruby
+rvm:
+ - 2.2.0
+
+before_install:
+  - sudo apt-get update -qq
+  - sudo apt-get install -y node npm git
+  - gem install bundler
+  - bundle install
+  - npm install
+  - sudo npm install -g grunt
+  - grunt
+  - git config --global user.email "iblancasa@gmail.com"
+  - git config --global user.name "Israel Blancas"
+  - git clone -b gh-pages https://iblancasa:${GH_TOKEN}@github.com/iblancasa/blog.git _site
+  - sudo rm -r _site/*
+script:
+  - bundle exec jekyll build
+after_script:
+  - grunt compress
+  - cd _site/
+  - git add *
+  - git add .
+  - git commit -m "`date`"
+  - git push origin gh-pages
