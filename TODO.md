@@ -5,8 +5,8 @@
 [x] Add test?
 [ ] Change domain
 [x] Improve search interface
-[ ] Remove sample post
-[x] Remove sanple pages
+[X] Remove sample posts
+[x] Remove sample pages
 [ ] Improve readme
 [x] Add tags?
 [x] Change author page
