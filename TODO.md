@@ -1,7 +1,7 @@
 # TO DO
 
 [x] Translate to Spanish
-[ ] Add continuous integration
+[x] Add continuous integration
 [x] Add test?
 [ ] Change domain
 [x] Improve search interface
