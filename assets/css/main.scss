@@ -27,6 +27,16 @@ sitemap: false
 @import "vendor/magnific-popup/magnific-popup";
 //@import "vendor/google/fonts";
 
+.article-wrap p+p{
+  text-indent:0px !important;
+  margin-top: 0px !important;
+}
+
+.article-wrap p{
+  text-align:justify;
+}
+
+
 #search-input {
   display: block;
   padding: .5em;

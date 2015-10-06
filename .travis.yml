@@ -19,7 +19,8 @@ script:
 after_script:
   - grunt compress
   - cd _site/
-  - git ls-files --deleted -z | xargs -0 git rm 
+  - git ls-files --deleted -z | xargs -0 git rm
+  - echo "blog.iblancasa.com" > CNAME
   - git add *
   - git add .
   - git commit -m "`date`"
