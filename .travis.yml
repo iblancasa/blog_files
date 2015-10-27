@@ -4,11 +4,10 @@ rvm:
 
 before_install:
   - sudo apt-get update
-  - sudo apt-get install -y nodejs npm git python pip
+  - sudo apt-get install -y nodejs npm git
   - npm install
   - npm install -g grunt-cli
   - gem install bundler
-  - pip install Pygments
   - bundle install
   - grunt
   - git config --global user.email "iblancasa@gmail.com"
