@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hackathon Open Access Week (Semana de la Ciencia Abierta)
+title: IEEExtreme v9
 excerpt: "Mi primer IEEExtreme, con la rama estudiantil de la Universidad de Granada"
 modified: 2015-10-27
 tags: [hackathon,ieee]
