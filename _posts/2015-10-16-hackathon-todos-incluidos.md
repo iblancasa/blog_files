@@ -5,6 +5,7 @@ excerpt: "Pequeña crónca sobre el hackathón \"Todos incluidos\" organizado po
 modified: 2015-10-16
 tags: [hackathon, telefonica, granada, parque de las ciencias, thinking things, iot, internet de las cosas, hardware]
 comments: true
+category: eventos
 ---
 Durante los días 2, 3 y 4 de octubre, el Parque de las Ciencias de Granada se llenó de programadores y gente relacionada con las nuevas tecnologías. Telefónica organizaba un hackathón (en el que previamente había que ser seleccionado tras rellenar una solicitud a través de un formulario web) sobre Internet de las Cosas.
 

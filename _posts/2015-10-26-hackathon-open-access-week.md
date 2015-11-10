@@ -4,6 +4,7 @@ title: Hackathon Open Access Week (Semana de la Ciencia Abierta)
 excerpt: "Mi paso por el hackathon organizado por la Oficina de Software Libre de la Universidad de Granada y el grupo de investigación Geneura para celebrar la Semana de la Ciencia Abierta"
 modified: 2015-10-26
 tags: [hackathon]
+category: eventos
 comments: true
 ---
 ![](https://pbs.twimg.com/media/CR_xwJeXIAELzwz.jpg)

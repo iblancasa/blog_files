@@ -5,6 +5,7 @@ excerpt: "Mi primer IEEExtreme, con la rama estudiantil de la Universidad de Gra
 modified: 2015-10-27
 tags: [hackathon,ieee]
 comments: true
+category: eventos
 ---
 ![](https://pbs.twimg.com/profile_images/588030735325536257/3MmCEoYU.png)
 
