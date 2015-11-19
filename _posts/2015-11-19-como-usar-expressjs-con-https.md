@@ -19,18 +19,18 @@ Primero será necesario generar los certificados del servidor. Cuando un usuario
 Podemos generar nuestros propios certificados. La conexión seguriá estando cifrada, aunque los navegadores no podrán certificar que el servidor sea el correcto (es decir, que los usuarios no están sufriendo un ["man-in-the-middle"](https://es.wikipedia.org/wiki/Ataque_Man-in-the-middle), por ejemplo).
 
 
-```bash
+{% highlight bash %}
 openssl genrsa -out chat-key.pem 1024
 openssl req -new -key chat-key.pem -out certrequest.csr
 openssl x509 -req -in certrequest.csr -signkey chat-key.pem -out chat-cert.pem
-```
+{% endhighlight %}
 
 
 ## Editando el código
 
 Simplemente, colocaremos los ficheros generados anteriormente dentro de nuestra aplicación y los referenciaremos desde el fichero donde se lance el servidor. La ruta será relativa al "package.json". Las claves las introduciremos en un diccionario y las pasaremos como parámetro a la hora de crear el servidor.
 
-```javascript
+{% highlight javascript %}
 var fs = require('fs');
 var hskey = fs.readFileSync('chat-key.pem');
 var hscert = fs.readFileSync('chat-cert.pem')
@@ -45,7 +45,7 @@ var app = express();
 var https = require('https');
 
 var server = https.createServer(options, app);
-```
+{% endhighlight %}
 
 Como podemos apreciar, respecto al "código clásico" de ejemplo, el resto del código cambia poco.
 
