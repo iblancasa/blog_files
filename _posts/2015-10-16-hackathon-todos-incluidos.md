@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Comentando el hackathón "Todos incluidos" en Granada
-excerpt: "Pequeña crónca sobre el hackathón \"Todos incluidos\" organizado por Telefónica en octubre de 2015"
+excerpt: "Pequeña crónca sobre el hackathón Todos incluidos organizado por Telefónica en octubre de 2015"
 modified: 2015-10-16
 tags: [hackathon, telefonica, granada, parque de las ciencias, thinking things, iot, internet de las cosas, hardware]
 comments: true
