@@ -24,4 +24,4 @@ after_script:
   - git add *
   - git add .
   - git commit -m "`date`"
-  - git push origin gh-pages
+  - git push origin gh-pages --quiet
