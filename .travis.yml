@@ -17,7 +17,7 @@ before_install:
 script:
   - bundle exec jekyll build
 after_script:
-  - grunt compress
+  - grunt compress --force --verbose
   - cd _site/
   - git ls-files --deleted -z | xargs -0 git rm
   - echo "blog.iblancasa.com" > CNAME
