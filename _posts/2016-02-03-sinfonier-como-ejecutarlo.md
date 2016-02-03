@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Comentando Sinfonier y un "arreglillo"
+title: Comentando Sinfonier y un arreglillo
 excerpt: "Contando qué es Sinfonier y cómo ejecutar los test sin tener que utilizar la máquina virtual que han colgado en su blog"
 tags: [sinfonier, eleven path, software]
 comments: true
